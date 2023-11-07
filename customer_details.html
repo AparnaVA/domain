@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+	<title>Customer Details</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+	<style type="text/css">
+		div{
+			border: 5px ridge black;
+			height: 500px;
+			width: 900px;
+			margin: 100px 250px;
+		}
+		p{
+			padding: 5px 200px;
+		}
+		input[type="search"]{
+			margin: 100px 690px 0px;
+		}
+		table{
+			border-collapse: collapse;
+			margin: 30px 50px;
+			width: 90%;
+			border: 1px solid lightgrey;
+			
+		}
+		th{
+			text-align: left;
+		}
+		td{
+			vertical-align: middle;
+			height: 25px;
+
+		}
+		.fa-eye{
+			color: #418FDE;
+			font-size: 20px;
+		}
+		.fa-pencil{
+			color: gold;
+		}
+		.fa-trash{
+			color: #ff2c2c;
+		}
+		label[for="show"]{
+			margin: 150px 0px 0px 50px;
+		}
+		.i{
+			display: inline;
+		}
+		
+		div.m{
+			border: none;
+			height: 20px;
+			width: 400px;
+			margin:-20px auto 0px 500px;
+		}
+		a{
+			text-decoration: none;
+		}
+		.s1,.s7{
+			background-color: lightgrey;
+			font-size: x-large;
+			padding: 10px;
+		}
+		.s2,.s3,.s5,.s6{
+			background-color: lightgrey;
+			border-radius: 50%;
+			padding: 9px;
+		}
+		.s4{
+			background-color: #418FDE;
+			border-radius: 50%;
+			padding: 9px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div>
+		<!--<h2>Customer Details</h2>-->
+		<input type="search" name="search" id="search" placeholder="search">
+		<label for="show" class="i">show</label>
+		<select id="show" name="show" >
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5" selected>5</option>
+		</select>
+		<label>entities</label>
+		<p class="i" style="font-size: x-large;">Customer <b>Details</b></p>
+		<table border="1">
+			<tr>
+				<th>#</th>
+				<th>Name</th>
+				<th>Address</th>
+				<th>City</th>
+				<th>Pincode</th>
+				<th>Country</th>
+				<th>Actions</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Thomas Hardy</td>
+				<td>89 Chiarsco Rd</td>
+				<td>Portland</td>
+				<td>91219</td>
+				<td>USA</td>
+				<td>
+					&nbsp;<i class="fa fa-eye" ></i>
+					<i class="fa fa-pencil"></i>
+					<i class="fa fa-trash"></i>
+				</td>
+			</tr>	
+			<tr>
+				<td>1</td>
+				<td>Maria Anders</td>
+				<td>Obere Str.57</td>
+				<td>Berline</td>
+				<td>12209</td>
+				<td>Germany</td>
+				<td>
+					&nbsp;<i class="fa fa-eye" ></i>
+					<i class="fa fa-pencil"></i>
+					<i class="fa fa-trash"></i>
+				</td>				
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Fran Wilson</td>
+				<td>C/Araquil,67</td>
+				<td>Mandrid</td>
+				<td>28023</td>
+				<td>Spain</td>
+				<td>
+					&nbsp;<i class="fa fa-eye" ></i>
+					<i class="fa fa-pencil"></i>
+					<i class="fa fa-trash"></i>
+				</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Dominic perrier</td>
+				<td>25 rue Lauriston</td>
+				<td>Paris</td>
+				<td>75016</td>
+				<td>France</td>
+				<td>
+					&nbsp;<i class="fa fa-eye" ></i>
+					<i class="fa fa-pencil"></i>
+					<i class="fa fa-trash"></i>
+				</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>Martin 	Blank</td>
+				<td>Via Monteblanco 34</td>
+				<td>Turin</td>
+				<td>10100</td>
+				<td>Italy</td>
+				<td>
+					&nbsp;<i class="fa fa-eye" ></i>
+					<i class="fa fa-pencil"></i>
+					<i class="fa fa-trash"></i>
+				</td>
+			</tr>
+		</table>
+		<label for="show">showing <b>5</b> out of <b>25</b> entries</label>
+<div class ="m">
+	<span class="s1">previous</span>&nbsp;&nbsp;
+	<span class="s2">1</span>&nbsp;&nbsp;
+	<span class="s3">2</span>&nbsp;&nbsp;
+	<span class="s4">3</span>&nbsp;&nbsp;
+	<span class="s5">4</span>&nbsp;&nbsp;
+	<span class="s6">5</span>&nbsp;
+	<span class="s7">next</span>
+		</div>
+	</div>
+
+</body>
+</html>
